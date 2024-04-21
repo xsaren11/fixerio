@@ -24,6 +24,7 @@ setup(
     version=version,
     description='A Python client for Fixer.io',
     long_description=readme + '\n\n' + changelog,
+    long_description_content_type='text/markdown',
     author="Krzysztof Sroka",
     author_email='krzysztof.sroka21@gmail.com',
     url='https://github.com/xsaren11/fixerio',
