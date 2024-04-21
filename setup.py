@@ -20,13 +20,13 @@ with open('CHANGELOG.rst') as f:
 requirements = ['requests>=2.0']
 
 setup(
-    name='fixerio',
+    name='fixerclient',
     version=version,
     description='A Python client for Fixer.io',
     long_description=readme + '\n\n' + changelog,
-    author="Adrian Matellanes",
-    author_email='matellanesadrian@gmail.com',
-    url='https://github.com/amatellanes/fixerio',
+    author="Krzysztof Sroka",
+    author_email='krzysztof.sroka21@gmail.com',
+    url='https://github.com/xsaren11/fixerio',
     install_requires=requirements,
     license='MIT License',
     packages=['fixerio'],

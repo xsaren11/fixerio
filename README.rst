@@ -16,16 +16,16 @@ Install ``fixerio`` with:
 
 ::
 
-    pip install fixerio
+    pip install fixerio-client
 
 Or with:
 
 ::
 
-    easy_install fixerio
+    easy_install fixerio-client
 
 Or you can get the source from GitHub at
-https://github.com/amatellanes/fixerio.
+https://github.com/xsaren11/fixerio.
 
 
 Usage
@@ -146,21 +146,3 @@ Request specific exchange rates by setting the ``symbols`` parameter.
      'date': '2016-05-27',
      'rates': {'GBP': 0.76245, 'USD': 1.1168}}
     '''
-
-All exceptions that ``fixerio`` explicitly raises are
-``fixerio.exceptions.FixerioException``.
-
-.. _Fixer API: https://apilayer.com/marketplace/fixer-api
-
-.. |Build Status| image:: https://travis-ci.org/amatellanes/fixerio.svg?branch=master
-    :target: https://travis-ci.org/amatellanes/fixerio
-.. |Coverage Status| image:: https://coveralls.io/repos/github/amatellanes/fixerio/badge.svg?branch=feature%2Flatest-rates
-    :target: https://coveralls.io/github/amatellanes/fixerio?branch=feature%2Flatest-rates
-.. |Supports Wheel format| image:: https://img.shields.io/pypi/wheel/fixerio.svg
-    :target: https://pypi.python.org/pypi/fixerio/
-.. |Latest PyPI version| image:: https://img.shields.io/pypi/v/fixerio.svg
-    :target: https://pypi.python.org/pypi/fixerio/
-.. |Documentation Status| image:: https://readthedocs.org/projects/fixerio/badge/?version=latest
-    :target: http://fixerio.readthedocs.io/en/latest/?badge=latest
-.. |Requirements Status| image:: https://requires.io/github/amatellanes/fixerio/requirements.svg?branch=develop
-    :target: https://requires.io/github/amatellanes/fixerio/requirements/?branch=develop

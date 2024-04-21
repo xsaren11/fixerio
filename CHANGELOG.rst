@@ -3,7 +3,7 @@
 Release History
 ---------------
 
-1.1.0 (2023-??-??)
+1.0.0 (2024-04-12)
 ~~~~~~~~~~~~~~~~~~
 - Update to the `new Fixer API endpoint on API Layer <https://api.apilayer.com/fixer/>`_.
 - Re-add support for changing base currency. This option is once again supported by Free Plan.
@@ -13,9 +13,6 @@ Release History
   by modern Python 3 versions).
 - Remove support for Python 2.
 - Add type hints for all methods.
-
-1.0.0-alpha (2018-06-13)
-~~~~~~~~~~~~~~~~~~~~~~~~
 - Update to the `new Fixer endpoint <https://data.fixer.io/api/>`_.
 - Add Fixer API Access Key support.
 - Drop Changing base currency support. This option is not supported by Free Plan.
