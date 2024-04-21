@@ -20,7 +20,7 @@ with open('CHANGELOG.rst') as f:
 requirements = ['requests>=2.0']
 
 setup(
-    name='fixerclient',
+    name='fixerio-client',
     version=version,
     description='A Python client for Fixer.io',
     long_description=readme + '\n\n' + changelog,
